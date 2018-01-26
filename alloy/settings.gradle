@@ -1,0 +1,8 @@
+rootProject.name = 'alloy'
+
+include 'utilities'
+include 'core'
+include 'search'
+include 'elasticsearch'
+include 'web'
+include 'web-demo'

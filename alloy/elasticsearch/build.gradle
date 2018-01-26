@@ -1,0 +1,6 @@
+dependencies {
+    compile project(':search')
+
+    compile group: 'org.elasticsearch', name: 'elasticsearch'
+    compile group: 'org.elasticsearch.client', name: 'elasticsearch-rest-high-level-client'
+}

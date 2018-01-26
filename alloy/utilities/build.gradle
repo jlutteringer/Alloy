@@ -1,0 +1,28 @@
+dependencies {
+    compile 'org.jetbrains.kotlin:kotlin-stdlib'
+    compile 'org.jetbrains.kotlin:kotlin-reflect'
+
+    compile group: 'io.github.microutils', name: 'kotlin-logging'
+
+    compile group: 'com.google.guava', name: 'guava'
+    compile group: 'org.apache.commons', name: 'commons-lang3'
+
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind'
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-annotations'
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-core'
+
+    compile group: 'com.fasterxml.jackson.datatype', name: 'jackson-datatype-jsr310'
+    compile group: 'com.fasterxml.jackson.datatype', name: 'jackson-datatype-jdk8'
+
+    compile group: 'javax.servlet', name: 'javax.servlet-api'
+    compile group: 'org.springframework', name: 'spring-web'
+
+    compile group: 'org.apache.logging.log4j', name: 'log4j-api'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-core'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-jcl'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-jul'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-slf4j-impl'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-1.2-api'
+
+    testCompile group: 'junit', name: 'junit'
+}
